@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 1</title>
+</head>
+<body>
+			
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script type = "text/javascript">
+
+		 var queryURL = "https://webcamstravel.p.mashape.com/webcams/list/category=city";
+
+    $.ajax({
+      url: queryURL,
+      method: 'GET',
+      headers: {
+      	"X-Mashape-Key" : "hdClS0YzlOmshlFFeW3W3WV1PoXEp17UCdrjsnAeTCrRrnazfX"
+      }
+    }).done(function(response) {
+      console.log(response);
+   
+    var feedId = response.result.webcams[0].id;
+
+    console.log(feed);
+	var webcamDiv = $("<div>");
+	webcamDiv.attr("class", "webcamDiv");
+	$(webcamDiv).append("<iframe src= https://lookr.com/'" + feed + "'></iframe>");
+});
+	
+
+
+
+	
+
+    </script>
+</body>
+</html>

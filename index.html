@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en=US">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        Project 1
+        Explore The World!
     </title>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body class="content">
 <div class="container">
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default nav-color">
     <div class="Jumbotron">
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         
-        <a class="navbar-brand" href="#">The Great Outdoors Around the World</a>
-          <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-      
+        <a class="navbar-brand title nav-font-color" href="#">The Great Outdoors Around the World</a>
+        <ul class="nav navbar-nav navbar-right nav-font-color">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Live Video Feed</a></li>
         </ul>
       </div>
     </div>
@@ -27,20 +28,22 @@
   <div class= "container">
       <div class="row">
           <div class="col-md-2"></div>
-          <div class="col-md-8"> 
-              <div class="input-group">
-                <p>By checking this box, you agree to our terms of use and service.
-                <input type="checkbox" aria-label="..."></p>
-
-              </div>
-      </div>
+          <div class="col-md-8" id="main-content">
+            <h4 class="About">About Us</h4>
+            <p>There's a lot of world out there; go find it! Our mission is to provide information to individuals about what different regions of the world look like in real time as well as what's going on in those countries. We achieve this through the use of both article and video search technologies.  Above, you will see links to our article and video search.  Once you sign up and agree to our terms of service and use, you will be able to access the articles and video feed! Go ahead and give it a try!</p>
+            <img class="world" src="assets/images/world.png">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" placeholder="Age">
+              <input type="text" class="form-control" placeholder="Email Address">
+            </div> 
+            <div class="input-group">
+              <p>By checking this box, you agree to our terms of use and service.
+              <input type="checkbox" aria-label="..."></p>
+              <button type="submit" class="btn btn-default submit">Submit</button>
+            </div>
+          </div>
           <div class="col-md-2"></div>
-      </div>
-  </div>
-  <div class= "container">
-      <div class="row">
-        <div class="col-md-4">Crime Data</div>
-        <div class="col-md-8">Video Embed</div>
       </div>
   </div>
 </div>

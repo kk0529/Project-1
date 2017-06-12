@@ -1,0 +1,50 @@
+* {
+	color: white;
+}
+
+.content {
+	background-color: #6a706e;
+}
+
+h4 {
+	font-size: 75px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 22px;
+}
+
+.nav-color {
+	background-color: #9b8714;
+
+}
+
+.nav-font-color {
+	color: white;
+}
+
+#main-content {
+	background-color: #9b8714;
+	border: 2px solid white;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.world {
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	display: block;
+}
+
+.submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+

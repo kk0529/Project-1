@@ -13,7 +13,7 @@ $(document).ready(function(){
               $(".city").html(" ==> No Location Entered");
             return false;
           }
-      var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
+      var queryURL = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=" + inputLoc + "&units=imperial&appid=" + APIKey;
       // Here we run our AJAX call to the OpenWeatherMap API
       $.ajax({

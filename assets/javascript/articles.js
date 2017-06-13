@@ -362,7 +362,7 @@ $("#searchIT").on("click", function(){
 //-----------------------Weather--------------------------------------------------------------------------------
     var APIKey1 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL1 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL1 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Sydney, Australia&units=imperial&appid=" + APIKey1;
 
     $.ajax({
@@ -388,7 +388,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey2 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL2 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL2 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Melbourne, Australia&units=imperial&appid=" + APIKey2;
 
     $.ajax({
@@ -414,7 +414,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey3 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL3 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL3 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Doha, Qatar&units=imperial&appid=" + APIKey3;
 
     $.ajax({
@@ -440,7 +440,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey4 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL4 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL4 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=New York, New York&units=imperial&appid=" + APIKey4;
 
     $.ajax({
@@ -466,7 +466,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey5 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL5 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL5 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Chicago, Illinois&units=imperial&appid=" + APIKey5;
 
     $.ajax({
@@ -492,7 +492,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey6 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL6 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL6 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Los Angeles, California&units=imperial&appid=" + APIKey6;
 
     $.ajax({
@@ -518,7 +518,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey7 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL7 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL7 = "http//api.openweathermap.org/data/2.5/weather?" +
       "q=New Delhi, India&units=imperial&appid=" + APIKey7;
 
     $.ajax({
@@ -544,7 +544,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey8 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL8 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL8 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Mumbai, India&units=imperial&appid=" + APIKey8;
 
     $.ajax({
@@ -570,7 +570,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey9 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL9 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL9 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=London, United Kingdom&units=imperial&appid=" + APIKey9;
 
     $.ajax({
@@ -596,7 +596,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey10 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL10 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL10 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Berlin, Germany&units=imperial&appid=" + APIKey10;
 
     $.ajax({
@@ -622,7 +622,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey11 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL11 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL11 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Milan, Italy&units=imperial&appid=" + APIKey9;
 
     $.ajax({

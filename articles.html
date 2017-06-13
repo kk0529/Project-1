@@ -28,7 +28,206 @@
       <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-8" id="main-content">
-            <!-- This is where we will append this div with JS to produce articles from our article API Search.  We need to input any HTML pertinent to Nick's API as well as use this div to target dynamic JS elements that will append -->
+            <h1>World Media Search</h1>
+  <h3>Search from Sources Around the World!</h3>
+
+<!-- Australia -->
+  <h1>Australia</h1>
+  <label>Source <select id="mySelectAU">
+    <option value= "none">Select</option>
+      <option value="abc-news-au">ABC News (AU)</option>
+      <option value="the-guardian-au">The Guardian (AU)</option>
+    </select></label>
+
+    <button id="searchAU">Search</button>
+
+    <div id="displayNewsAU"></div>
+
+    <div class="city1"></div>
+  <div class="wind1"></div>
+  <div class="humidity1"></div>
+  <div class="temp1"></div>
+
+  <div class="city2"></div>
+  <div class="wind2"></div>
+  <div class="humidity2"></div>
+  <div class="temp2"></div>
+
+<!-- Middle East -->
+    <h1>Qatar</h1>
+  <label>Source <select id="mySelectME">
+    <option value= "none">Select</option>
+      <option value="al-jazeera-english">Al Jazeera English</option>
+    </select></label>
+
+    <button id="searchME">بحث</button>
+
+    <div id="displayNewsME"></div>
+
+    <div class="city3"></div>
+  <div class="wind3"></div>
+  <div class="humidity3"></div>
+  <div class="temp3"></div>
+
+<!-- United States -->
+  <h1>The United States</h1>
+  <label>Source <select id="mySelectUS">
+    <option value= "none">Select</option>
+    <option value="ars-technica">Ars Technica</option>
+    <option value="associated-press">Associated Press</option>
+    <option value="bloomberg">Bloomberg</option>
+    <option value="breitbart-news">Breitbart News</option>
+    <option value="business-insider">Business Insider</option>
+    <option value="buzzfeed">Buzzfeed</option>
+    <option value="cnbc">CNBC</option>
+    <option value="cnn">CNN</option>
+    <option value="engadget">Engadget</option>
+    <option value="entertainment-weekly">Entertainment Weekly</option>
+    <option value="espn">ESPN</option>
+    <option value="financial-times">Financial Times</option>
+    <option value="fortune">Fortune</option>
+    <option value="fox-sports">Fox Sports</option>
+    <option value="google-news">Google News</option>
+    <option value="hacker-news">Hacker News</option>
+    <option value="ign">IGN</option>
+    <option value="mashable">Mashable</option>
+    <option value="mtv-news">MTV News</option>
+    <option value="national-geographic">National Geographic</option>
+    <option value="new-scientist">New Scientist</option>
+    <option value="newsweek">Newsweek</option>
+    <option value="new-york-magazine">New York Magazine</option>
+    <option value="nfl-news">NFL News</option>
+    <option value="polygon">Polygon</option>
+    <option value="recode">Recode</option>
+    <option value="reddit-r-all">Reddit/r/all</option>
+    <option value="reuters">Reuters</option>
+    <option value="techcrunch">TechCrunch</option>
+    <option value="techradar">TechRadar</option>
+    <option value="the-economist">The Economist</option>
+    <option value="the-huffington-post">The Huffington Post</option>
+    <option value="the-lad-bible">The Lad Bible</option>
+    <option value="the-new-york-times">The New York Times</option>
+    <option value="the-next-web">The Next Web</option>
+    <option value="the-sports-bible">The Sports Bible</option>
+    <option value="the-verge">The Verge</option>
+    <option value="the-wall-street-journal">The Wall Street Journal</option>
+    <option value="the-washington-post">The Washington Post</option>
+    <option value="time">Time</option>
+    <option value="usa-today">USA Today</option>
+    </select></label>
+
+    <button id="searchUS">Search</button>
+
+    <div id="displayNewsUS"></div>
+
+    <div class="city4"></div>
+  <div class="wind4"></div>
+  <div class="humidity4"></div>
+  <div class="temp4"></div>
+
+  <div class="city5"></div>
+  <div class="wind5"></div>
+  <div class="humidity5"></div>
+  <div class="temp5"></div>
+
+  <div class="city6"></div>
+  <div class="wind6"></div>
+  <div class="humidity6"></div>
+  <div class="temp6"></div>
+
+<!-- India -->
+  <h1>India</h1>
+  <label>Source <select id="mySelectIN">
+    <option value= "none">Select</option>
+    <option value="espn-cric-info">ESPN Cric Info</option>
+    <option value="the-hindu">The Hindu</option>
+    <option value="the-times-of-india">The Times of India</option>
+    </select></label>
+
+    <button id="searchIN">खोज</button>
+
+    <div id="displayNewsIN"></div>
+
+    <div class="city7"></div>
+  <div class="wind7"></div>
+  <div class="humidity7"></div>
+  <div class="temp7"></div>
+
+  <div class="city8"></div>
+  <div class="wind8"></div>
+  <div class="humidity8"></div>
+  <div class="temp8"></div>
+
+<!-- United Kingdom -->
+  <h1>The United Kingdom</h1>
+  <label>Source <select id="mySelectUK">
+    <option value= "none">Select</option>
+    <option value="bbc-news">BBC News</option>
+    <option value="bbc-sport">BBC Sport</option>
+    <option value="business-insider-uk">Business Insider (UK)</option>
+    <option value="daily-mail">Dailey Mail</option>
+    <option value="four-four-two">FourFourTwo</option>
+    <option value="independent">Independent</option>
+    <option value="metro">Metro</option>
+    <option value="mirror">Mirror</option>
+    <option value="mtv-news-uk">MTV News (UK)</option>
+    <option value="talksport">TalkSport</option>
+    <option value="the-guardian-uk">The Guardian (UK)</option>
+    <option value="the-telegraph">The Telegraph</option>
+    </select></label>
+
+    <button id="searchUK">Search</button>
+
+    <div id="displayNewsUK"></div>
+
+    <div class="city9"></div>
+  <div class="wind9"></div>
+  <div class="humidity9"></div>
+  <div class="temp9"></div>
+
+<!-- Germany -->
+  <h1>Germany</h1>
+  <label>Source <select id="mySelectGY">
+    <option value= "none">Select</option>
+    <option value="bild">Bild</option>
+    <option value="der-tagesspiegel">Der Tagesspiegel</option>
+    <option value="die-zeit">Die Zeit</option>
+    <option value="focus">Focus</option>
+    <option value="gruenderszene">Gruenderszene</option>
+    <option value="handelsblatt">Handelsblatt</option>
+    <option value="spiegel-online">Spiegel Online</option>
+    <option value="t3n">T3n</option>
+    <option value="wired-de">Wired.de</option>
+    <option value="Wirtschafts-woche">Wirtschafts Woche</option>
+    </select></label>
+
+    <button id="searchGY">Suche</button>
+
+    <div id="displayNewsGY"></div>
+
+    <div class="city10"></div>
+  <div class="wind10"></div>
+  <div class="humidity10"></div>
+  <div class="temp10"></div>
+
+<!-- Italy -->
+  <h1>Italy</h1>
+  <label>Source <select id="mySelectIT">
+    <option value= "none">Select</option>
+    <option value="football-italia">Football Italia</option>
+    </select></label>
+
+    <button id="searchIT">Ricerca</button>
+
+    <div id="displayNewsIT"></div>
+
+    <div class="city11"></div>
+  <div class="wind11"></div>
+  <div class="humidity11"></div>
+  <div class="temp11"></div>
+
+  <h5>Source: News API</h5>
+  <h6>https://newsapi.org/</h6>
           </div>
           <div class="col-md-2"></div>
       </div>

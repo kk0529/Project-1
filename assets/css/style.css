@@ -1,13 +1,20 @@
 * {
-	color: white;
+	color: #494a4c;
 }
 
 .content {
-	background-color: #6a706e;
+	background-image:url("../images/world-map.png");
+	background-image: center;
+	background-attachment: fixed;
 }
 
 h4 {
-	font-size: 75px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h6 {
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -17,8 +24,7 @@ p {
 }
 
 .nav-color {
-	background-color: #9b8714;
-
+	background-color: #e0ddc9;
 }
 
 .nav-font-color {
@@ -26,10 +32,11 @@ p {
 }
 
 #main-content {
-	background-color: #9b8714;
+	background-color: #e0ddc9;
 	border: 2px solid white;
 	padding: 20px;
 	margin-top: 10px;
+	margin-bottom: 80px;
 }
 
 .world {
@@ -46,5 +53,9 @@ p {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.footer {
+	margin-top: 60px;
 }
 

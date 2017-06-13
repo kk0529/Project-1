@@ -388,7 +388,7 @@ $("#searchIT").on("click", function(){
 
     var APIKey2 = "166a433c57516f51dfab1f7edaed8413";
 
-    var queryURL2 = "https://api.openweathermap.org/data/2.5/weather?" +
+    var queryURL2 = "http://api.openweathermap.org/data/2.5/weather?" +
       "q=Melbourne, Australia&units=imperial&appid=" + APIKey2;
 
     $.ajax({

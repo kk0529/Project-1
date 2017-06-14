@@ -37,7 +37,7 @@ function performSearchAU(event){
 
 	    		 $("#article-well-AU" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-AU" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-AU" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
+	    		 $("#article-well-AU" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 
 	    	}
 	    })
@@ -79,7 +79,7 @@ function performSearchME(event){
 
 	    		 $("#article-well-ME" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-ME" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-ME" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
+	    		 $("#article-well-ME" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 
 	    	}
 	    })
@@ -122,8 +122,7 @@ function performSearchUS(event){
 
 	    		 $("#article-well-US" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-US" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-US" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
-
+	    		 $("#article-well-US" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 	    	}
 	    })
 }
@@ -165,7 +164,7 @@ function performSearchIN(event){
 
 	    		 $("#article-well-IN" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-IN" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-IN" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
+	    		 $("#article-well-IN" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 
 	    	}
 	    })
@@ -208,8 +207,7 @@ function performSearchUK(event){
 
 	    		 $("#article-well-UK" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-UK" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-UK" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
-
+	    		 $("#article-well-UK" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 	    	}
 	    })
 }
@@ -251,7 +249,7 @@ function performSearchGY(event){
 
 	    		 $("#article-well-GY" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-GY" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-GY" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
+	    		 $("#article-well-GY" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 
 	    	}
 	    })
@@ -294,7 +292,7 @@ function performSearchIT(event){
 
 	    		 $("#article-well-IT" + articlesCounter).append("<h5>Description: " + response.articles[i].description + "</h5>");
 	    		 $("#article-well-IT" + articlesCounter).append("<h5>Author: " + response.articles[i].author + "</h5>");
-	    		 $("#article-well-IT" + articlesCounter).append("<h5>URL: " + response.articles[i].url + "</h5>");
+	    		 $("#article-well-IT" + articlesCounter).append("<a href=" + response.articles[i].url + " target='_blank'><h5>URL: " + response.articles[i].url + "</h5></a>");
 
 	    	}
 	    })
